@@ -4,14 +4,16 @@ This repository contains the original source code of MNA
 
 # Installation
 ## Requirements
-MNA requires Python version 3.8+ and dependency packages can be installed with pip or conda.
+MNA can only run on unix systems for now.
+It requires Python version 3.8+ and dependency packages can be installed with pip or conda.
 
-`pip install -r requirements.txt`
-
-### or
+`pip install -r requirements.txt` 
+or
 `conda create  -n MNA -f MNA.yml`
 
-The compressed files of MNA library are tracked by git LFS and should be first unzip to the current folder.
+Remote tracking branches of the MNA repository can be cloned to a local folder using `git clone`.
+[The compressed file of the MNA library](https://drive.google.com/file/d/1w6HF3w1KIJlTz_QaVqqtN1BzkGDhDgzw/view?usp=sharing)
+should be downloaded and unzipped into the cloned folder.
 # Quickstart
 Before applying MNA, raw mass spectrometry (MS) data should be converted using [MSconvert](https://mzmine.github.io/mzmine_documentation/data_conversion.html). 
 It is recommended to use [MZmine-based untargeted LC-MS workflow](https://mzmine.github.io/mzmine_documentation/workflows/lcmsworkflow/lcms-workflow.html) 
